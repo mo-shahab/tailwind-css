@@ -1,10 +1,6 @@
-import { useState } from "react";
-
 import "./App.css";
 
 function App() {
-  const [counter, setCounter] = useState<number>(0);
-
   return (
     <>
       <div className="grid">
